@@ -37,11 +37,11 @@ footer:
   social: Around the Web
   credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social network usernames (many more available: google-plus, Flickr, dribble, Pinterest, Instagram, Tumblr, LinkedIn, etc.)
 social:
-  - title: linkedin
+  - title: Linkedin
     url: www.linkedin.com/in/maria-menendez-pino
-  - title: github
+  - title: GitHub
     url: https://github.com/lilmaria10
 
 # Email Address (make sure to include "mailto:" before your email!)
@@ -50,7 +50,7 @@ email:
 
 # Postal address (add as many lines as necessary)
 location:
-  - line: mooresville, NC 
+  - line: Mooresville, NC 
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.

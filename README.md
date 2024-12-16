@@ -1,19 +1,80 @@
-## Maria Menendez Pino
--  Hi, I’m maria I’m interested in cybersecury  I’m currently learning with meritamerica
-- 📫 How to reach me:
-  
-        www.linkedin.com/in/maria-menendez-096563230 / cell: (980)215-3616 / email: m.menendezpino@gmail.com
-        
+# Maria Menendez-Pino - Cybersecurity Portfolio
 
+👋 **Welcome to my Cybersecurity Portfolio!**  
+I’m Maria Menendez-Pino, an aspiring cybersecurity professional blending technical expertise with real-world problem-solving. My work focuses on securing systems, analyzing risks, and mitigating vulnerabilities, driven by a passion for protecting digital landscapes.
 
-- ⚡ Fun fact: ...
+## About Me
+- 📍 **Location**: Mooresville, NC  
+- 🎓 **Education**: Google Cybersecurity Professional Certificate (Expected Jan 2025)  
+- 🛠 **Skills**:
+  - **Tools**: Splunk, Wireshark, Tcpdump, Nessus, Ansible
+  - **Languages**: Python, SQL, Linux/Unix
+  - **Practices**: Threat Analysis, Incident Response, Risk Assessment
+- 🌐 **Languages**: Bilingual in English and Spanish  
+- 📈 **Career Goal**: To secure a high-impact role in cybersecurity, specializing in threat detection, compliance, and incident response.  
 
-   As a teenager, I discovered my love for computers and coding. That introductory computer engineering class was like opening the door to a world of possibilities. During my formative years, I was drawn to the magic of computers. I was fascinated by how a few lines of code could transform a blank screen into a dynamic web page. I eagerly delved into coding—writing my first “Hello, World!” program felt like a rite of passage. 
- Linux, with its command-line interface and open-source ethos, captured my imagination. I spent countless hours exploring its intricacies, feeling like a digital explorer charting uncharted territory. For me, Linux was the epitome of cool. The terminal commands, the customizable desktop environments, and the community-driven development all felt like being part of an exclusive club. My journey didn’t end there. I continued my education, honed my coding skills, and explored cybersecurity. 
-Today, I aspire to contribute to this ever-evolving field. I aim to safeguard digital landscapes, uncover vulnerabilities, and create robust defenses. Whether it’s securing networks, analyzing malware, or educating users, I’m committed to making a difference.
-As a highly motivated and detail-oriented cybersecurity analyst with strong written and verbal communication skills, I draw from a unique experience. During my time as a home health aide, I keenly observed early signs of dementia in a patient. Recognizing the urgency, I promptly contacted my nurse supervisor, who advised calling 911 and arranging her hospital admission. My attention to detail in that critical moment ensured she received the necessary help swiftly.
-This incident underscores the importance of vigilance and quick action—qualities that directly translate to my role as a cybersecurity analyst. Just as I identified health risks, I now strive to identify and analyze potential risks, threats, and vulnerabilities in digital environments. By ensuring the confidentiality, integrity, and availability of assets, I contribute to safeguarding both organizations and individuals.
-As a highly motivated and detail-oriented cybersecurity analyst, I stand at the digital crossroads, armed with vigilance and compassion. Just as I safeguard data, I uphold honesty and transparency. My code of ethics is unbreakable—whether it’s handling sensitive information or collaborating with colleagues. My journey began as a home health aide, where I learned to listen, observe, and care. Now, I extend that empathy to the digital realm. Behind every firewall lies a human story. I bear the weight of protection. I take ownership, whether it’s a single line of code or an entire network. “This is my watch,” I declare, ensuring confidentiality, integrity, and availability. Cybersecurity evolves faster than dragons breathe fire. I’m forever a student—learning, adapting, and staying ahead. Certifications? Yes. Blogs? Absolutely. Virtual duels with hackers? Bring it on. Alone, I’m a sentinel; together, we’re an impregnable fortress. I collaborate with IT teams, developers, and business leaders. We share threat intelligence, patch vulnerabilities, and build resilient systems.   
+[📄 View My Resume](https://docs.google.com/document/d/1saBJyq4YnYdnFzg4WauMsKkzQzFMEgEG8Q2TyAJoM6s/edit?usp=sharing)  
+[🔗 LinkedIn](https://www.linkedin.com/in/maria-menendez-pino/) | [💻 GitHub Portfolio](https://lilmaria10.github.io/cybersecurity-portfolio/)
+
+---
+
+## Projects
+
+### 1️⃣ [Linux Security Fundamentals](#)
+- **Description**: *Coming soon!*
+- **Skills Used**: Linux CLI, File Permissions, User Management
+- **Outcome**: This project will focus on securing Linux systems by identifying vulnerabilities and implementing best practices.
+
+### 2️⃣ [Log Analysis with Splunk](#)
+- **Description**: *Coming soon!*
+- **Skills Used**: Log Analysis, Splunk Dashboards, Incident Response
+- **Outcome**: This project will demonstrate proficiency in analyzing real-world attack scenarios using Splunk.
+
+### 3️⃣ [Wireshark Packet Analysis](#)
+- **Description**: *Coming soon!*
+- **Skills Used**: Network Protocols, Packet Analysis, Wireshark Filters
+- **Outcome**: This project will showcase the ability to identify security breaches and mitigate threats through network traffic analysis.
+
+### 4️⃣ [Threat Hunting on TryHackMe](https://docs.google.com/document/d/1GORzpCGnrGH2PmOz62BeX2MlVusos9Cfvc9CmKfVqkU/edit?usp=sharing)
+- **Description**: Conducted hands-on labs on platforms like TryHackMe to enhance my threat-hunting skills.
+- **Skills Used**: Vulnerability Scanning, IDS/IPS Tools
+- **Outcome**: Gained practical experience in identifying and remediating threats through various challenges.
+
+---
+
+## Certifications
+- 🎓 **Google Cybersecurity Professional Certificate** *(expected January 2025)*  
+- 🏆 [TryHackMe Cybersecurity Labs](https://docs.google.com/document/d/1GORzpCGnrGH2PmOz62BeX2MlVusos9Cfvc9CmKfVqkU/edit?usp=sharing)  
+- 🌟 [Other Certifications/Badges] (e.g., CompTIA, if applicable)
+
+---
+
+## Contact Me
+- 📧 **Email**: [m.menendezpino@gmail.com](mailto:m.menendezpino@gmail.com)  
+- 📱 **Phone**: 980-215-3616  
+- 🌐 **Portfolio Website**: [cybersecurity-portfolio](https://lilmaria10.github.io/cybersecurity-portfolio/)  
+- 🔗 **LinkedIn**: [Maria Menendez-Pino](https://www.linkedin.com/in/maria-menendez-pino/)
+
+---
+
+## How to Use This Portfolio
+1. Explore the **Projects** section to see my hands-on cybersecurity work.
+2. Visit my **Portfolio Website** for more details and interactive content.
+3. Connect with me via **LinkedIn** or **Email**—let’s secure the digital world together!
+
+---
+
+### Future Plans
+I’m continually learning and growing in the cybersecurity field. Future additions will include:
+- Advanced threat hunting and incident response projects.
+- Certifications in CompTIA Security+ and CEH.
+- Open-source tools or scripts for the cybersecurity community.
+
+---
+
+### Feedback Welcome
+I value constructive feedback! If you have suggestions or collaboration opportunities, feel free to reach out. Let’s grow together!
+ 
 
 
 

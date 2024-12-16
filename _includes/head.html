@@ -2,23 +2,106 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ site.title }}</title>
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ site.description }}">
-  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta name="keywords" content="{{ site.keywords }}">
   {% if site.meta_author %}
   <meta name="author" content="{{ site.meta_author }}">{% endif %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="feed.xml">
 
   <!-- Custom Fonts -->
-  <link rel="stylesheet" href="{{ "css/font-awesome/css/all.min.css" }}">
-  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-  <!-- Inline CSS -->
+  <!-- Inline CSS with Light Purple Theme -->
   <style>
-    /* Intro Text Styling for Readability */
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background-color: #f9f7fc; /* Light purple background */
+    }
+
+    /* Header Section */
+    header {
+      position: relative;
+      background-image: url('img/portfolio/pexels-tima-miroshnichenko-5380642.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(75, 0, 130, 0.4); /* Purple overlay */
+      z-index: 1;
+    }
+
+    .container {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #fff;
+    }
+
+    /* Intro Text */
     .intro-text {
-      background-color: rgba(0, 0, 0, 0.6); /* Adds a semi-transparent background */
-      padding: 20px; /* Adds space around the text */
-    
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+      padding: 20px;
+      border-radius: 10px;
+      backdrop-filter: blur(5px);
+    }
+
+    .intro-text .name {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #e0b3ff; /* Light purple text */
+    }
+
+    .intro-text .skills {
+      font-size: 1.5em;
+      color: #d8b6ff; /* Slightly lighter purple */
+    }
+
+    hr.star-light {
+      border-color: #c29fff; /* Purple divider */
+      width: 50%;
+      margin: 10px auto;
+    }
+
+    /* Footer Styling (Optional Light Purple Footer) */
+    footer {
+      background-color: #e6ccff; /* Light purple footer */
+      text-align: center;
+      padding: 10px;
+      color: #333;
+    }
+
+    footer a {
+      color: #7b4bbd; /* Darker purple for links */
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>

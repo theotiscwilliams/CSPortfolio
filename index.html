@@ -59,3 +59,27 @@
   </footer>
 </body>
 </html>
+#certifications ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#certifications ul li {
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+
+#certifications ul li a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+#certifications ul li a:hover {
+  text-decoration: underline;
+}
+
+#certifications ul li::before {
+  content: "✔️ ";
+  color: green;
+  margin-right: 8px;
+}

@@ -9,11 +9,12 @@
       </div>
     </div>
 
-    <!-- Portfolio Grid with Effects -->
+    <!-- Portfolio Grid -->
     <div class="row">
       {% for post in site.posts %}
       <div class="col-md-4 portfolio-item staggered-fade">
         <div class="portfolio-card">
+          <!-- Link wraps entire card -->
           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
             <!-- Image with Hover Effects -->
             <div class="portfolio-image-wrapper">
@@ -25,6 +26,7 @@
             </div>
           </a>
         </div>
+        <!-- Portfolio Item Title -->
         <h4>{{ post.title }}</h4>
       </div>
       {% endfor %}

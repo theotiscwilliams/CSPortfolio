@@ -4,13 +4,48 @@
 
 <body id="page-top" class="index">
   {% include nav.html %}
-  {% include header.html %}
-  {% include portfolio_grid.html %}
-  {% include about.html %}
+  <div class="fade-in-section">{% include header.html %}</div>
+  <div class="fade-in-section">{% include portfolio_grid.html %}</div>
+  <div class="fade-in-section">{% include about.html %}</div>
+  <div class="fade-in-section">{% include footer.html %}</div>
 
-  {% include footer.html %}
   {% include modals.html %}
   {% include js.html %}
+
+  <!-- Fade-In Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const fadeSections = document.querySelectorAll(".fade-in-section");
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.2, // Trigger when 20% of the section is visible
+      });
+
+      fadeSections.forEach(section => observer.observe(section));
+    });
+  </script>
+
+  <style>
+    /* Initial fade-in styles */
+    .fade-in-section {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+
+    /* Visible class for fade-in effect */
+    .fade-in-section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
 </body>
 
 </html>

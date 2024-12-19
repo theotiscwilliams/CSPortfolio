@@ -4,10 +4,10 @@
 
 <body id="page-top" class="index">
   {% include nav.html %}
-  <div class="fade-in-section">{% include header.html %}</div>
-  <div class="fade-in-section">{% include portfolio_grid.html %}</div>
-  <div class="fade-in-section">{% include about.html %}</div>
-  <div class="fade-in-section">{% include footer.html %}</div>
+  <div class="fade-in-section header">{% include header.html %}</div>
+  <div class="fade-in-section portfolio">{% include portfolio_grid.html %}</div>
+  <div class="fade-in-section about">{% include about.html %}</div>
+  <div class="fade-in-section footer">{% include footer.html %}</div>
 
   {% include modals.html %}
   {% include js.html %}
@@ -17,33 +17,54 @@
     document.addEventListener("DOMContentLoaded", function () {
       const fadeSections = document.querySelectorAll(".fade-in-section");
 
+      fadeSections.forEach((section, index) => {
+        section.style.transitionDelay = `${index * 0.2}s`;
+        section.setAttribute("aria-hidden", "true");
+      });
+
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             entry.target.classList.add("visible");
+            entry.target.setAttribute("aria-hidden", "false");
             observer.unobserve(entry.target);
           }
         });
       }, {
-        threshold: 0.2, // Trigger when 20% of the section is visible
+        threshold: 0.2,
       });
 
       fadeSections.forEach(section => observer.observe(section));
     });
   </script>
 
+  <!-- CSS for Fade-In Effects -->
   <style>
-    /* Initial fade-in styles */
     .fade-in-section {
       opacity: 0;
       transform: translateY(30px);
       transition: opacity 1s ease-out, transform 1s ease-out;
     }
 
-    /* Visible class for fade-in effect */
     .fade-in-section.visible {
       opacity: 1;
       transform: translateY(0);
+    }
+
+    .fade-in-section.header {
+      transform: translateY(-30px);
+    }
+
+    .fade-in-section.portfolio {
+      transform: scale(0.9);
+    }
+
+    .fade-in-section.about {
+      transform: translateX(-30px);
+    }
+
+    .fade-in-section.footer {
+      transform: translateX(30px);
     }
   </style>
 </body>

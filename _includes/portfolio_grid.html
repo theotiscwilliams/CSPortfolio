@@ -14,19 +14,15 @@
       {% for post in site.posts %}
       <div class="col-md-4 portfolio-item staggered-fade">
         <div class="portfolio-card">
-          <!-- Link wraps entire card -->
           <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-            <!-- Image with Hover Effects -->
             <div class="portfolio-image-wrapper">
               <img src="img/portfolio/{{ post.img }}" class="portfolio-image" alt="{{ post.alt }}">
             </div>
-            <!-- Overlay with Icon -->
             <div class="portfolio-overlay">
               <i class="fa fa-search-plus fa-3x"></i>
             </div>
           </a>
         </div>
-        <!-- Portfolio Item Title -->
         <h4>{{ post.title }}</h4>
       </div>
       {% endfor %}

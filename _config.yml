@@ -1,7 +1,8 @@
 # Site settings
+
 title: Maria Menendez-Pino
 email: M.menendezpino@gmail.com
-url: https://www.linkedin.com/in/maria-menendez-pino/
+url: https://www.linkedin.com/in/maria-menendez
 description: "Portfolio of cybersecurity work samples for a junior-level cyber security professional."
 keywords: "cybersecurity, cyber, security, portfolio, tech"
 skills: "Cybersecurity - Analyst - Ethical Hacker"
@@ -45,8 +46,9 @@ social:
     url: https://github.com/lilmaria10
 
 # Email Address (make sure to include "mailto:" before your email!)
-email:
+
   email-url: m.menendezpino@gmail.com
+
 
 # Postal address (add as many lines as necessary)
 location:

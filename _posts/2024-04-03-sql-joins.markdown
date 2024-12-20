@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 3
-title: SQL Joins
+title: SQL Query
 img: sql.png
 alt: image-alt
 
@@ -9,5 +9,7 @@ alt: image-alt
 project-url: https://coursera.org/share/cfe7d709edf4064bf81a0b04bcaa8655
 
 # Once you've completed your project, update the 'description' below to this one: Implemented various JOIN commands (inner, left, right, self, and cross) in MySQL, utilizing UNION and UNION ALL to efficiently combine and query data from multiple tables.
+
 description:  Implemented various JOIN commands (inner, left, right, self, and cross) in MySQL, utilizing UNION and UNION ALL to efficiently combine and query data from multiple tables. 
+
 ---

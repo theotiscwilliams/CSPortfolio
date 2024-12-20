@@ -1,58 +1,5 @@
-/* Portfolio Section */
-.portfolio-section {
-  padding: 60px 0;
-  background-color: #f8f9fa;
-}
-
-.portfolio-section h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #231942; /* Dark purple */
-}
-
-.portfolio-item {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.portfolio-image-wrapper {
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.portfolio-image {
-  width: 100%;
-  display: block;
-  transition: transform 0.5s ease, filter 0.5s ease;
-}
-
-.portfolio-card:hover .portfolio-image {
-  transform: scale(1.1);
-  filter: brightness(0.8);
-}
-
-.portfolio-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.portfolio-card:hover .portfolio-overlay {
-  opacity: 1;
-}
-
-.portfolio-overlay i {
-  color: #fff;
-  font-size: 2rem;
-}#page-header {
+/* Header Section */
+#page-header {
   background: url('img/portfolio/pexels-tima-miroshnichenko-5380642.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
@@ -87,6 +34,7 @@ hr.star-light {
   width: 50px;
   margin: 20px auto;
 }
+
 /* Portfolio Section */
 .portfolio-section {
   background-color: #1E1B38; /* Deep purple */
@@ -141,6 +89,7 @@ hr.star-light {
 .portfolio-image-wrapper:hover .overlay-icon {
   transform: scale(1.2);
 }
+
 /* Buttons */
 .btn-primary {
   background-color: #6B5B95; /* Medium purple */
@@ -153,3 +102,21 @@ hr.star-light {
   background-color: #B8A9C9; /* Soft lavender */
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #page-header {
+    height: 70vh;
+  }
+
+  .site-title {
+    font-size: 2.5rem;
+  }
+
+  .skills {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-flex-item {
+    margin-bottom: 20px;
+  }
+}

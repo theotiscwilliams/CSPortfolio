@@ -46,8 +46,8 @@ social:
     url: https://github.com/lilmaria10
 
 # Email Address (make sure to include "mailto:" before your email!)
-
-  email-url: m.menendezpino@gmail.com
+email:
+  email-url: mailto:m.menendezpino@gmail.com
 
 
 # Postal address (add as many lines as necessary)

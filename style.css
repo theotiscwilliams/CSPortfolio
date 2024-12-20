@@ -52,4 +52,39 @@
 .portfolio-overlay i {
   color: #fff;
   font-size: 2rem;
+}#page-header {
+  background: url('img/portfolio/pexels-tima-miroshnichenko-5380642.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.intro-text {
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay for text */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.site-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #B8A9C9; /* Soft lavender */
+}
+
+.skills {
+  font-size: 1.5rem;
+  color: #D9D7E3; /* Pale purple */
+}
+
+hr.star-light {
+  border-color: #B8A9C9; /* Soft lavender */
+  border-width: 2px;
+  width: 50px;
+  margin: 20px auto;
+}
+

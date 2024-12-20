@@ -71,3 +71,25 @@
 .portfolio-section .btn-primary:hover {
   background-color: #9F86C0; /* Light purple */
 }
+/* Purple Theme */
+body {
+  background-color: #231942; /* Deep purple */
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #9F86C0; /* Light purple */
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #E0B1CB; /* Pink */
+}
+
+hr.star-primary {
+  border-color: #E0B1CB;
+  border-width: 2px;
+  width: 50px;
+  margin: 10px auto;
+}

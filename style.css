@@ -1,3 +1,31 @@
+#page-header {
+  background: url('img/portfolio/pexels-tima-miroshnichenko-5380642.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.intro-text {
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.site-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #E0B1CB; /* Light purple */
+}
+
+.skills {
+  font-size: 1.5rem;
+  color: #F8E1F4; /* Soft pink */
+}
 
 /* Portfolio Section */
 .portfolio-section {

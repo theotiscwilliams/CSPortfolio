@@ -1,29 +1,23 @@
-<!-- Header -->
-<header class="fixed-header">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <h1>{{ site.title }}</h1>
-      </div>
-      <div class="col-lg-4">
-        <nav>
-          <ul class="nav-list">
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About Me</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="col-lg-4">
-        <!-- Removed the image from the header -->
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="path/to/style.css">
+</head>
+<body>
+  <!-- Include the header content -->
+  {% include header.html %}
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <img class="main-image oval-image" src="img/portfolio/aragonai-e366c330-fb43-42c0-9149-84e5cba8c818.jpeg" alt="profile-pic" />
+    <div class="intro-text">
+      <h2>Welcome to My Portfolio</h2>
     </div>
   </div>
-</header>
 
-<!-- Main Content -->
-<div class="main-content">
-  <img class="main-image oval-image" src="img/portfolio/aragonai-e366c330-fb43-42c0-9149-84e5cba8c818.jpeg" alt="profile-pic" />
-  <div class="intro-text">
-    <h2>Welcome to My Portfolio</h2>
-  </div>
-</div>
+  <script src="path/to/cbpAnimatedHeader.js"></script>
+</body>
+</html>

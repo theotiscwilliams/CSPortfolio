@@ -106,3 +106,45 @@ a:hover {
 .portfolio-item:hover .caption {
   opacity: 1;
 }
+.fixed-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.header-image {
+  max-height: 50px;
+}
+
+.oval-image {
+  border-radius: 50%;
+}
+

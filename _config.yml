@@ -26,10 +26,10 @@ disqus_shortname:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 9F86C0 #80B3FF 
-  primary-rgb: "159,134,192" #"128,179,255"
-  secondary: E0B1CB #FD6E8A 
-  secondary-dark: 231942 #A2122F 
+  primary: 800080 # A deep purple
+  primary-rgb: "128,0,128" # A deep purple
+  secondary: 9370DB # Medium purple
+  secondary-dark: 4B0082 # Indigo
 
 # Footer settings
 footer:
@@ -49,14 +49,11 @@ social:
 email:
   email-url: mailto:m.menendezpino@gmail.com
 
-
 # Postal address (add as many lines as necessary)
 location:
   - line: Mooresville, NC 
 
-
-
-#for posts
+# for posts
 defaults:
   - scope:
       path: ""

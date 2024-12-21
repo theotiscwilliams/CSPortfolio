@@ -1,4 +1,72 @@
+/* General Text */
+body {
+  color: #000; /* Black text */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
 
----
-layout: style
----
+/* Header Section */
+#page-header {
+  background-color: #231942; /* Deep purple */
+  color: #fff; /* White text */
+}
+
+#page-header .site-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#page-header .skills {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background-color: #6B5B95; /* Medium purple */
+  color: #000; /* Black text */
+}
+
+#portfolio h2 {
+  color: #fff; /* White section titles */
+}
+
+.portfolio-item h4 {
+  color: #000; /* Black project titles */
+}
+
+/* Footer Section */
+footer {
+  background-color: #231942; /* Deep purple */
+  color: #fff; /* White text */
+}
+
+footer a {
+  color: #D9D7E3; /* Pale purple links */
+}
+
+footer a:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #6B5B95; /* Medium purple */
+  border: none;
+  color: #fff; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #9F86C0; /* Light purple */
+}
+
+/* Links */
+a {
+  color: #000; /* Black links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6B5B95; /* Medium purple */
+  text-decoration: underline;
+}

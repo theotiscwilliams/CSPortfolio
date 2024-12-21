@@ -70,3 +70,39 @@ a:hover {
   color: #6B5B95; /* Medium purple */
   text-decoration: underline;
 }
+.portfolio-flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.caption-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.portfolio-item:hover .caption {
+  opacity: 1;
+}

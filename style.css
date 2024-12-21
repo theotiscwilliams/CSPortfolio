@@ -1,177 +1,15 @@
-/* Add this CSS to style.css */
-
 /* General Text */
 body {
   color: #000; /* Black text */
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-/* Container to center the main content */
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Header Section */
-#page-header {
-  background-color: #231942; /* Deep purple */
-  color: #fff; /* White text */
-}
-
-#page-header .site-title {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-#page-header .skills {
-  font-size: 1.5rem;
-  margin-top: 10px;
-}
-
-/* Portfolio Section */
-#portfolio {
-  background-color: #6B5B95; /* Medium purple */
-  color: #000; /* Black text */
-}
-
-#portfolio h2 {
-  color: #fff; /* White section titles */
-}
-
-.portfolio-item h4 {
-  color: #000; /* Black project titles */
-}
-
-/* Footer Section */
-footer {
-  background-color: #231942; /* Deep purple */
-  color: #fff; /* White text */
-}
-
-footer a {
-  color: #D9D7E3; /* Pale purple links */
-}
-
-footer a:hover {
-  color: #fff; /* White on hover */
-}
-
-/* Buttons */
-.btn-primary {
-  background-color: #6B5B95; /* Medium purple */
-  border: none;
-  color: #fff; /* White text */
-}
-
-.btn-primary:hover {
-  background-color: #9F86C0; /* Light purple */
-}
-
-/* Links */
-a {
-  color: #000; /* Black links */
-  text-decoration: none;
-}
-
-a:hover {
-  color: #6B5B95; /* Medium purple */
-  text-decoration: underline;
-}
-
-.portfolio-flex-grid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolio-item {
-  margin-bottom: 30px;
-}
-
-.portfolio-image {
-  width: 100%;
-  height: auto;
-}
-
-.caption {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.75);
-  opacity: 0;
-  transition: all ease 0.5s;
-}
-
-.caption-content {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  color: #fff;
-}
-
-.portfolio-item:hover .caption {
-  opacity: 1;
-}
-
-.fixed-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #6B5B95; /* Medium purple */
-  color: #fff; /* White text */
-  z-index: 1000;
-  padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: padding 0.3s ease;
-}
-
-.fixed-header.shrink {
-  padding: 10px 0;
-}
-
-.fixed-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-list li {
-  display: inline;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-}
-/* General Styles */
-body {
-  color: #000;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
 /* Center the main content container */
@@ -179,7 +17,7 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 /* Header Section */
@@ -283,4 +121,77 @@ body {
 
 .caption-content .btn {
   margin-top: 10px;
+}
+
+/* Footer Section */
+footer {
+  background-color: #231942; /* Deep purple */
+  color: #fff; /* White text */
+}
+
+footer a {
+  color: #D9D7E3; /* Pale purple links */
+}
+
+footer a:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #6B5B95; /* Medium purple */
+  border: none;
+  color: #fff; /* White text */
+}
+
+.btn-primary:hover {
+  background-color: #9F86C0; /* Light purple */
+}
+
+/* Links */
+a {
+  color: #000; /* Black links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6B5B95; /* Medium purple */
+  text-decoration: underline;
+}
+
+.portfolio-flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.caption-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.portfolio-item:hover .caption {
+  opacity: 1;
 }

@@ -1,8 +1,25 @@
+/* Add this CSS to style.css */
+
 /* General Text */
 body {
   color: #000; /* Black text */
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Container to center the main content */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Header Section */
@@ -70,6 +87,7 @@ a:hover {
   color: #6B5B95; /* Medium purple */
   text-decoration: underline;
 }
+
 .portfolio-flex-grid {
   display: flex;
   flex-wrap: wrap;
@@ -105,47 +123,6 @@ a:hover {
 
 .portfolio-item:hover .caption {
   opacity: 1;
-}
-.fixed-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 1000;
-  padding: 10px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.fixed-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-list li {
-  display: inline;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-.header-image {
-  max-height: 50px;
-}
-
-.oval-image {
-  border-radius: 50%;
 }
 
 .fixed-header {

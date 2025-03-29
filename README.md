@@ -21,6 +21,10 @@ description: The description of the project
 
 ---
 ```
+*** Another List *** 
+- Item 1
+- Item 2
+- Item 3
 
 ## Demo
 View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)

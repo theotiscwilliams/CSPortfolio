@@ -21,7 +21,7 @@ description: The description of the project
 
 ---
 ```
-** Another List ** 
+**Another List** 
 - Item 1
 - Item 2
 - Item 3
